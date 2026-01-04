@@ -1,0 +1,27 @@
+:root {
+    /* Brand Colors - Purple Theme */
+    --clr-brand: #6d28d9;
+    --clr-brand-hover: #5b21b6;
+    --clr-surface-accent: #6d28d9;
+    
+    /* Override Button Colors */
+    --button-bg: var(--clr-brand);
+}
+
+/* Header Logo Styling for Text Replacement */
+.header-logo-text {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--clr-text-strong);
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+}
+
+/* Update accent color usages */
+.sub-head strong, 
+.prose strong,
+.text-highlight {
+    color: var(--clr-brand);
+}
